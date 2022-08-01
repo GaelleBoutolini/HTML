@@ -1,28 +1,48 @@
- h2 {
+ h1 {
     font-style: italic;
     font-size: 20px;
     color: green;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ h3 {
+    font-style: italic;
+    font-size: 18px;
+    color: green;
+ }
+ p{
+   width: 530px;
+   height: 259px;
+   border: solid 10px;
+   text-align:justify;
+   border-radius: 180px 0 180px 0;
+   font-size: 16px;
+   padding: 50px;
+   
+ }
+ ul{
+   width: 500px;
+   height: 209px;
+   border: solid 10px;
+   text-align:justify;
+   border-radius: 100px 0 100px 0;
+   font-size: 16px;
+   padding: 50px;
+   font-weight:100px;
+   padding-left: 20px;
+   
  }
 
  body{
-    background-color:antiquewhite;
+    background-color: lightblue;
  }
 
+ header{
+   width: 230px;
+   height: 300px;
+   border: solid 15px;
+ }
+ 
  img{
-    width: 250px;
-    height: 320px;
-    border-radius: 70px;
- }
- fieldset{
-    background-color:bisque;
-    border-radius: 60px;
- }
-
- p{
-    font-size: 18px;
- }
-
- ol{
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
+   width: 230px;
+   height: 300px;
  }
