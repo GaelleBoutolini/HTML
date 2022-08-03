@@ -1,49 +1,122 @@
- h1 {
-    font-style: italic;
-    font-size: 20px;
-    color: green;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration:underline;
- }
- h3 {
-    font-style: italic;
-    font-size: 18px;
-    color: green;
- }
- p{
-   width: 530px;
-   height: 259px;
-   border: solid 10px;
-   text-align:justify;
-   border-radius: 180px 0 180px 0;
-   font-size: 16px;
-   padding: 50px;
-   
- }
- ul{
-   width: 500px;
-   height: 209px;
-   border: solid 10px;
-   text-align:justify;
-   border-radius: 100px 0 100px 0;
-   font-size: 16px;
-   padding: 50px;
-   font-weight:100px;
-   padding-left: 20px;
-   
- }
 
  body{
     background-color: lightblue;
- }
 
- header{
-   width: 230px;
-   height: 300px;
-   border: solid 15px;
  }
  
- img{
+ .img{
    width: 230px;
    height: 300px;
+   margin-bottom: 50px;
+   position: relative;
+   right: 5px;
+   bottom: 70px;
  }
+
+ .nom{
+  text-align: center;
+  width: 500px;
+  height: 50px;
+  font-size: 8px;
+  border: solid 7px;
+  position: relative;
+  left: 37%;
+  text-decoration-line:initial;
+  padding-inline: 30px;
+  margin-bottom: 5px;
+  top: 50px;
+  border-radius: 75px 0 75px 0;
+
+ }
+
+
+ .presentation {
+  text-align: justify;
+  border: solid 7px ;
+  width: 56%;
+  height: 240px;
+  position: relative;
+  left: 37%;
+  border-radius: 102px 102px 102px 102px;
+  text-decoration-line:initial;
+  margin-bottom: 50px;
+  padding-inline: 30px;
+  bottom: 50px;
+ }
+
+
+ 
+ .experience{
+  text-align: justify;
+  border: solid 7px;
+  width: 56%;
+  height: 275px;
+  position:relative;
+  bottom: 50px;
+  margin-bottom: 50px;
+  text-decoration-line:initial;
+  border-radius: 102px 102px 102px 102px;
+  padding-inline: 22px;
+ }
+
+ .formation{
+  text-align: justify;
+  border: solid 7px;
+  bottom: 50px;
+  margin-bottom: 50px;
+  width: 58%;
+  height: 210px;
+  position:relative;
+  left: 37%;
+  border-radius: 102px 102px 102px 102px;
+  text-decoration-line:initial;
+  padding-inline: 20px;
+
+ }
+ .competences{
+  border: solid 7px;
+  width: 59%;
+  height: 245px;
+  text-align:justify;
+  position:relative;
+  margin-bottom: 50px;
+  bottom: 50px;
+  border-radius: 102px 102px 102px 102px;
+  text-decoration-line:initial;
+  padding-inline: 20px;
+ }
+
+ .atouts{
+  text-align: justify;
+  border: solid 7px;
+  width: 30%;
+  height: 170px;
+  border-radius: 90px 0 90px 0;
+  position:relative;
+  left: 45%;
+  margin-bottom: 50px;
+  border-radius: 102px 102px 102px 102px;
+  text-decoration-line:initial;
+  padding-inline: 20px;
+  bottom: 50px;
+ }
+  h1{
+    text-align: center;
+  }
+
+ .contact{
+  text-align: justify;
+  border: solid 7px;
+  width: 26%;
+  height: 165px;
+  border-radius: 75px 0 75px 0;
+  position:relative;
+  margin-bottom: 50px;
+  border-radius: 102px 102px 102px 102px;
+  text-decoration-line:initial;
+  left: 20%;
+  padding-inline: 20px;
+  bottom: 55px;
+
+ }
+
